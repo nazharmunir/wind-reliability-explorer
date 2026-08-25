@@ -1,0 +1,421 @@
+component_id,component_type,site,observed_age_years,failed
+WT-0001,Gearbox,North Sea,5.204,0
+WT-0002,Main bearing,North Sea,9.921,1
+WT-0003,Main bearing,Baltic,2.044,1
+WT-0004,Main bearing,Onshore North,1.885,1
+WT-0005,Gearbox,Onshore North,6.379,1
+WT-0006,Main bearing,North Sea,4.437,0
+WT-0007,Gearbox,Baltic,4.033,1
+WT-0008,Main bearing,North Sea,6.231,0
+WT-0009,Main bearing,Baltic,9.568,0
+WT-0010,Gearbox,Baltic,3.039,1
+WT-0011,Gearbox,Baltic,7.639,1
+WT-0012,Main bearing,North Sea,11.2,1
+WT-0013,Generator,North Sea,7.081,0
+WT-0014,Generator,North Sea,4.886,0
+WT-0015,Main bearing,Onshore North,8.482,0
+WT-0016,Main bearing,Onshore North,5.345,1
+WT-0017,Main bearing,Onshore North,4.977,0
+WT-0018,Main bearing,North Sea,3.289,0
+WT-0019,Main bearing,Baltic,2.855,1
+WT-0020,Gearbox,Onshore North,5.53,1
+WT-0021,Gearbox,Onshore North,5.384,0
+WT-0022,Main bearing,Onshore North,8.39,1
+WT-0023,Gearbox,Onshore North,4.974,0
+WT-0024,Generator,Onshore North,8.867,1
+WT-0025,Generator,North Sea,10.129,0
+WT-0026,Gearbox,North Sea,6.103,1
+WT-0027,Gearbox,Baltic,10.747,0
+WT-0028,Main bearing,Onshore North,3.686,1
+WT-0029,Generator,Onshore North,5.642,0
+WT-0030,Main bearing,North Sea,10.883,0
+WT-0031,Main bearing,Onshore North,7.569,0
+WT-0032,Main bearing,Onshore North,5.928,1
+WT-0033,Gearbox,North Sea,4.454,0
+WT-0034,Generator,Onshore North,8.391,0
+WT-0035,Gearbox,North Sea,10.908,0
+WT-0036,Generator,Baltic,5.168,0
+WT-0037,Gearbox,North Sea,3.144,1
+WT-0038,Main bearing,Onshore North,4.156,0
+WT-0039,Gearbox,Onshore North,4.139,1
+WT-0040,Gearbox,North Sea,9.797,0
+WT-0041,Gearbox,Onshore North,5.505,1
+WT-0042,Gearbox,Baltic,7.063,0
+WT-0043,Main bearing,North Sea,6.343,1
+WT-0044,Main bearing,North Sea,1.05,1
+WT-0045,Main bearing,North Sea,10.737,0
+WT-0046,Main bearing,North Sea,5.715,1
+WT-0047,Gearbox,Onshore North,8.139,0
+WT-0048,Gearbox,Baltic,4.714,0
+WT-0049,Main bearing,Baltic,6.509,1
+WT-0050,Generator,North Sea,11.303,1
+WT-0051,Main bearing,Baltic,10.205,0
+WT-0052,Main bearing,North Sea,4.707,1
+WT-0053,Gearbox,Baltic,6.72,1
+WT-0054,Main bearing,Onshore North,3.423,1
+WT-0055,Gearbox,North Sea,11.337,0
+WT-0056,Generator,North Sea,7.332,0
+WT-0057,Generator,North Sea,3.019,0
+WT-0058,Gearbox,Baltic,5.28,1
+WT-0059,Generator,Onshore North,7.38,0
+WT-0060,Main bearing,North Sea,8.213,0
+WT-0061,Gearbox,Onshore North,3.451,0
+WT-0062,Gearbox,Onshore North,4.055,1
+WT-0063,Main bearing,North Sea,2.901,1
+WT-0064,Generator,Baltic,3.921,1
+WT-0065,Main bearing,Onshore North,2.262,1
+WT-0066,Gearbox,Onshore North,7.197,1
+WT-0067,Main bearing,Onshore North,5.391,0
+WT-0068,Main bearing,Onshore North,5.846,0
+WT-0069,Generator,North Sea,1.096,1
+WT-0070,Gearbox,North Sea,2.95,1
+WT-0071,Main bearing,Baltic,10.913,0
+WT-0072,Gearbox,North Sea,6.527,1
+WT-0073,Main bearing,Onshore North,8.285,1
+WT-0074,Gearbox,Onshore North,3.401,1
+WT-0075,Main bearing,North Sea,4.399,0
+WT-0076,Main bearing,North Sea,4.832,0
+WT-0077,Gearbox,Baltic,5.26,0
+WT-0078,Generator,North Sea,3.426,1
+WT-0079,Main bearing,North Sea,4.177,0
+WT-0080,Generator,North Sea,7.965,0
+WT-0081,Gearbox,North Sea,3.511,1
+WT-0082,Gearbox,North Sea,7.38,1
+WT-0083,Gearbox,North Sea,3.376,0
+WT-0084,Gearbox,North Sea,4.891,0
+WT-0085,Main bearing,North Sea,6.503,1
+WT-0086,Generator,Onshore North,11.332,0
+WT-0087,Main bearing,North Sea,10.297,0
+WT-0088,Generator,North Sea,4.852,1
+WT-0089,Generator,Baltic,10.777,0
+WT-0090,Generator,Baltic,4.552,1
+WT-0091,Gearbox,North Sea,5.002,0
+WT-0092,Generator,Baltic,7.091,1
+WT-0093,Generator,North Sea,1.733,1
+WT-0094,Main bearing,North Sea,5.512,0
+WT-0095,Gearbox,Baltic,8.521,1
+WT-0096,Main bearing,North Sea,3.698,1
+WT-0097,Main bearing,Baltic,2.223,1
+WT-0098,Main bearing,Baltic,7.341,1
+WT-0099,Main bearing,Onshore North,3.399,0
+WT-0100,Gearbox,Onshore North,7.846,0
+WT-0101,Generator,Onshore North,4.773,0
+WT-0102,Gearbox,Onshore North,8.608,0
+WT-0103,Gearbox,North Sea,5.703,0
+WT-0104,Main bearing,Baltic,6.219,1
+WT-0105,Gearbox,North Sea,6.387,1
+WT-0106,Gearbox,North Sea,5.709,0
+WT-0107,Gearbox,North Sea,4.892,0
+WT-0108,Generator,Onshore North,7.185,0
+WT-0109,Gearbox,North Sea,7.104,1
+WT-0110,Generator,Onshore North,3.763,0
+WT-0111,Gearbox,Onshore North,3.84,0
+WT-0112,Generator,North Sea,5.022,0
+WT-0113,Main bearing,North Sea,2.422,1
+WT-0114,Gearbox,North Sea,6.663,1
+WT-0115,Gearbox,Onshore North,7.449,0
+WT-0116,Main bearing,Onshore North,10.055,1
+WT-0117,Generator,North Sea,4.97,0
+WT-0118,Generator,Onshore North,3.452,0
+WT-0119,Main bearing,North Sea,7.544,1
+WT-0120,Gearbox,Onshore North,7.789,1
+WT-0121,Generator,Onshore North,11.028,0
+WT-0122,Gearbox,Onshore North,4.432,0
+WT-0123,Generator,Baltic,5.225,0
+WT-0124,Gearbox,Onshore North,5.153,0
+WT-0125,Gearbox,Onshore North,5.284,1
+WT-0126,Main bearing,Onshore North,3.126,1
+WT-0127,Gearbox,North Sea,3.578,0
+WT-0128,Gearbox,Onshore North,3.56,0
+WT-0129,Generator,Baltic,8.257,0
+WT-0130,Gearbox,Onshore North,3.053,0
+WT-0131,Gearbox,Baltic,10.462,1
+WT-0132,Gearbox,Onshore North,9.049,1
+WT-0133,Generator,Baltic,5.417,1
+WT-0134,Main bearing,Baltic,9.828,1
+WT-0135,Generator,Baltic,11.826,0
+WT-0136,Gearbox,Baltic,7.759,1
+WT-0137,Main bearing,Baltic,3.995,1
+WT-0138,Main bearing,Baltic,6.231,1
+WT-0139,Main bearing,Baltic,5.713,1
+WT-0140,Gearbox,North Sea,6.781,1
+WT-0141,Main bearing,Baltic,3.618,0
+WT-0142,Generator,North Sea,11.547,0
+WT-0143,Main bearing,North Sea,5.147,0
+WT-0144,Gearbox,North Sea,4.962,0
+WT-0145,Gearbox,Baltic,4.167,1
+WT-0146,Generator,North Sea,4.474,0
+WT-0147,Main bearing,Onshore North,1.857,1
+WT-0148,Gearbox,Baltic,6.198,1
+WT-0149,Main bearing,Onshore North,5.186,0
+WT-0150,Gearbox,Baltic,8.404,0
+WT-0151,Main bearing,Onshore North,6.125,0
+WT-0152,Gearbox,Baltic,2.878,1
+WT-0153,Main bearing,Baltic,3.95,0
+WT-0154,Generator,Onshore North,7.138,0
+WT-0155,Main bearing,North Sea,10.647,1
+WT-0156,Main bearing,Onshore North,7.184,0
+WT-0157,Generator,Onshore North,6.067,1
+WT-0158,Generator,North Sea,6.203,1
+WT-0159,Generator,Onshore North,6.411,0
+WT-0160,Main bearing,Baltic,4.604,1
+WT-0161,Generator,Baltic,6.212,1
+WT-0162,Generator,Onshore North,1.143,1
+WT-0163,Main bearing,Onshore North,7.039,1
+WT-0164,Main bearing,Baltic,7.417,0
+WT-0165,Generator,North Sea,6.398,1
+WT-0166,Main bearing,Onshore North,7.259,0
+WT-0167,Gearbox,Baltic,7.953,0
+WT-0168,Gearbox,Baltic,5.155,1
+WT-0169,Main bearing,North Sea,6.108,1
+WT-0170,Generator,Onshore North,4.936,1
+WT-0171,Gearbox,Onshore North,7.74,1
+WT-0172,Gearbox,North Sea,5.666,0
+WT-0173,Gearbox,Baltic,1.529,1
+WT-0174,Main bearing,North Sea,8.541,1
+WT-0175,Main bearing,Baltic,3.11,0
+WT-0176,Main bearing,Baltic,4.659,0
+WT-0177,Main bearing,Baltic,3.588,0
+WT-0178,Gearbox,Onshore North,3.482,0
+WT-0179,Main bearing,Onshore North,3.767,0
+WT-0180,Main bearing,Onshore North,8.457,0
+WT-0181,Generator,North Sea,6.423,0
+WT-0182,Generator,Baltic,11.91,0
+WT-0183,Main bearing,Onshore North,2.734,1
+WT-0184,Main bearing,North Sea,5.382,0
+WT-0185,Main bearing,North Sea,3.676,0
+WT-0186,Main bearing,Baltic,7.229,0
+WT-0187,Main bearing,Baltic,9.327,0
+WT-0188,Gearbox,Onshore North,4.818,1
+WT-0189,Generator,Onshore North,11.121,1
+WT-0190,Gearbox,Onshore North,4.341,0
+WT-0191,Main bearing,North Sea,2.957,1
+WT-0192,Main bearing,Onshore North,11.291,0
+WT-0193,Gearbox,Baltic,8.606,1
+WT-0194,Generator,Onshore North,6.94,0
+WT-0195,Gearbox,Baltic,8.433,0
+WT-0196,Main bearing,North Sea,10.524,0
+WT-0197,Gearbox,North Sea,9.051,0
+WT-0198,Main bearing,North Sea,4.577,0
+WT-0199,Gearbox,Baltic,4.633,0
+WT-0200,Gearbox,Onshore North,9.935,1
+WT-0201,Gearbox,Baltic,5.685,1
+WT-0202,Generator,Baltic,7.459,0
+WT-0203,Gearbox,Baltic,7.951,0
+WT-0204,Gearbox,Baltic,4.043,0
+WT-0205,Generator,Onshore North,3.01,0
+WT-0206,Generator,Baltic,4.688,0
+WT-0207,Gearbox,Baltic,8.042,1
+WT-0208,Main bearing,Onshore North,3.928,1
+WT-0209,Generator,Baltic,3.947,1
+WT-0210,Gearbox,North Sea,5.797,0
+WT-0211,Main bearing,Baltic,3.346,1
+WT-0212,Generator,Baltic,8.829,0
+WT-0213,Main bearing,Onshore North,5.858,1
+WT-0214,Gearbox,Baltic,5.194,0
+WT-0215,Gearbox,Baltic,4.404,1
+WT-0216,Generator,North Sea,5.486,0
+WT-0217,Generator,Baltic,6.97,1
+WT-0218,Main bearing,North Sea,5.687,0
+WT-0219,Gearbox,Onshore North,4.337,0
+WT-0220,Gearbox,Baltic,5.678,1
+WT-0221,Gearbox,Baltic,10.707,1
+WT-0222,Main bearing,Baltic,5.218,1
+WT-0223,Main bearing,Onshore North,7.712,1
+WT-0224,Gearbox,Onshore North,8.868,0
+WT-0225,Main bearing,North Sea,3.86,1
+WT-0226,Main bearing,North Sea,6.963,0
+WT-0227,Gearbox,Baltic,1.579,1
+WT-0228,Generator,North Sea,3.078,1
+WT-0229,Main bearing,Onshore North,8.849,0
+WT-0230,Generator,Onshore North,6.42,0
+WT-0231,Main bearing,Onshore North,7.392,0
+WT-0232,Gearbox,Onshore North,2.869,1
+WT-0233,Generator,North Sea,6.906,0
+WT-0234,Main bearing,Onshore North,3.905,0
+WT-0235,Main bearing,Baltic,3.414,0
+WT-0236,Generator,Baltic,6.876,0
+WT-0237,Main bearing,Baltic,8.674,1
+WT-0238,Main bearing,North Sea,6.443,0
+WT-0239,Gearbox,Baltic,4.288,0
+WT-0240,Gearbox,Baltic,6.696,1
+WT-0241,Generator,Baltic,9.098,0
+WT-0242,Main bearing,Baltic,11.889,0
+WT-0243,Main bearing,Baltic,7.112,0
+WT-0244,Main bearing,Baltic,3.96,0
+WT-0245,Gearbox,Baltic,7.618,1
+WT-0246,Main bearing,Onshore North,3.073,0
+WT-0247,Generator,Onshore North,11.196,0
+WT-0248,Generator,Baltic,5.071,0
+WT-0249,Generator,North Sea,8.588,0
+WT-0250,Gearbox,Onshore North,9.128,0
+WT-0251,Main bearing,North Sea,8.817,0
+WT-0252,Main bearing,Baltic,2.09,1
+WT-0253,Main bearing,Baltic,6.225,1
+WT-0254,Main bearing,Onshore North,6.293,0
+WT-0255,Gearbox,Baltic,5.313,0
+WT-0256,Generator,Baltic,5.656,0
+WT-0257,Generator,North Sea,3.678,0
+WT-0258,Generator,North Sea,9.518,0
+WT-0259,Generator,Onshore North,7.29,1
+WT-0260,Main bearing,Onshore North,3.821,1
+WT-0261,Generator,Baltic,10.044,1
+WT-0262,Generator,North Sea,7.243,0
+WT-0263,Gearbox,Onshore North,5.641,1
+WT-0264,Gearbox,Onshore North,10.057,1
+WT-0265,Main bearing,Baltic,3.408,0
+WT-0266,Main bearing,Baltic,3.71,1
+WT-0267,Gearbox,Baltic,6.649,1
+WT-0268,Generator,Onshore North,7.945,1
+WT-0269,Main bearing,Baltic,9.663,1
+WT-0270,Gearbox,Baltic,2.132,1
+WT-0271,Gearbox,North Sea,3.894,0
+WT-0272,Gearbox,Onshore North,8.803,0
+WT-0273,Main bearing,Baltic,4.099,0
+WT-0274,Generator,Baltic,3.414,1
+WT-0275,Gearbox,North Sea,2.539,1
+WT-0276,Generator,Onshore North,5.221,1
+WT-0277,Gearbox,Onshore North,4.653,1
+WT-0278,Main bearing,North Sea,8.364,0
+WT-0279,Main bearing,North Sea,7.862,0
+WT-0280,Generator,North Sea,3.232,0
+WT-0281,Main bearing,North Sea,3.142,0
+WT-0282,Main bearing,North Sea,7.735,0
+WT-0283,Generator,Baltic,6.258,0
+WT-0284,Gearbox,Baltic,7.046,1
+WT-0285,Main bearing,Onshore North,7.122,0
+WT-0286,Generator,North Sea,10.626,0
+WT-0287,Gearbox,North Sea,6.938,1
+WT-0288,Main bearing,North Sea,4.335,0
+WT-0289,Main bearing,Onshore North,7.935,0
+WT-0290,Main bearing,Onshore North,7.083,0
+WT-0291,Gearbox,North Sea,4.03,0
+WT-0292,Gearbox,Onshore North,4.935,0
+WT-0293,Gearbox,North Sea,6.334,1
+WT-0294,Gearbox,Onshore North,3.282,1
+WT-0295,Gearbox,Baltic,9.181,0
+WT-0296,Gearbox,North Sea,3.839,0
+WT-0297,Main bearing,Onshore North,4.171,0
+WT-0298,Main bearing,Onshore North,8.629,1
+WT-0299,Gearbox,Onshore North,6.806,0
+WT-0300,Generator,North Sea,8.404,0
+WT-0301,Gearbox,Onshore North,4.393,0
+WT-0302,Gearbox,North Sea,5.823,1
+WT-0303,Main bearing,Baltic,8.761,1
+WT-0304,Generator,Onshore North,8.784,0
+WT-0305,Main bearing,Onshore North,5.407,0
+WT-0306,Main bearing,Onshore North,11.044,1
+WT-0307,Gearbox,North Sea,8.097,0
+WT-0308,Gearbox,North Sea,9.114,1
+WT-0309,Main bearing,Onshore North,5.006,1
+WT-0310,Main bearing,Baltic,5.919,0
+WT-0311,Generator,Onshore North,3.284,1
+WT-0312,Main bearing,Onshore North,2.505,1
+WT-0313,Gearbox,Baltic,6.902,1
+WT-0314,Main bearing,Onshore North,3.675,1
+WT-0315,Main bearing,Onshore North,7.742,0
+WT-0316,Main bearing,North Sea,6.926,1
+WT-0317,Main bearing,Baltic,9.906,0
+WT-0318,Generator,Baltic,3.07,0
+WT-0319,Generator,North Sea,4.077,1
+WT-0320,Main bearing,Onshore North,10.256,0
+WT-0321,Main bearing,Onshore North,2.327,1
+WT-0322,Generator,Baltic,8.161,0
+WT-0323,Generator,Baltic,6.338,1
+WT-0324,Generator,North Sea,8.563,0
+WT-0325,Generator,Baltic,3.346,1
+WT-0326,Main bearing,Onshore North,3.708,0
+WT-0327,Generator,Onshore North,5.998,0
+WT-0328,Main bearing,Onshore North,7.775,0
+WT-0329,Main bearing,Baltic,6.476,1
+WT-0330,Gearbox,North Sea,4.318,0
+WT-0331,Main bearing,Onshore North,4.231,1
+WT-0332,Main bearing,Onshore North,7.927,1
+WT-0333,Generator,Baltic,10.938,0
+WT-0334,Gearbox,Onshore North,5.601,1
+WT-0335,Main bearing,Baltic,2.896,1
+WT-0336,Main bearing,Baltic,6.167,0
+WT-0337,Main bearing,Baltic,3.512,0
+WT-0338,Generator,North Sea,10.88,1
+WT-0339,Main bearing,Onshore North,7.164,0
+WT-0340,Gearbox,Onshore North,7.048,0
+WT-0341,Generator,Onshore North,4.981,1
+WT-0342,Gearbox,North Sea,6.624,1
+WT-0343,Generator,Onshore North,3.271,1
+WT-0344,Main bearing,Onshore North,6.955,0
+WT-0345,Gearbox,North Sea,5.935,1
+WT-0346,Gearbox,Baltic,3.471,0
+WT-0347,Gearbox,Baltic,2.826,1
+WT-0348,Gearbox,Baltic,4.987,1
+WT-0349,Generator,Onshore North,6.0,0
+WT-0350,Gearbox,North Sea,5.792,0
+WT-0351,Gearbox,Onshore North,6.16,1
+WT-0352,Generator,Baltic,8.791,0
+WT-0353,Main bearing,North Sea,9.842,1
+WT-0354,Generator,Onshore North,3.841,0
+WT-0355,Gearbox,Onshore North,5.918,1
+WT-0356,Main bearing,North Sea,6.38,1
+WT-0357,Main bearing,North Sea,4.258,1
+WT-0358,Generator,Onshore North,10.516,0
+WT-0359,Generator,North Sea,10.888,0
+WT-0360,Gearbox,Onshore North,4.46,0
+WT-0361,Generator,Onshore North,4.49,0
+WT-0362,Gearbox,Baltic,5.938,1
+WT-0363,Generator,Onshore North,6.28,1
+WT-0364,Gearbox,Onshore North,4.871,1
+WT-0365,Generator,North Sea,7.315,1
+WT-0366,Generator,Baltic,10.003,0
+WT-0367,Gearbox,Baltic,10.352,0
+WT-0368,Generator,North Sea,3.47,0
+WT-0369,Gearbox,Baltic,3.923,0
+WT-0370,Generator,North Sea,6.281,1
+WT-0371,Main bearing,Onshore North,4.156,1
+WT-0372,Generator,North Sea,10.962,0
+WT-0373,Generator,Baltic,2.593,1
+WT-0374,Main bearing,North Sea,3.254,0
+WT-0375,Generator,Onshore North,10.122,0
+WT-0376,Main bearing,Baltic,7.252,0
+WT-0377,Generator,Onshore North,8.538,0
+WT-0378,Generator,North Sea,5.905,1
+WT-0379,Gearbox,Onshore North,6.809,0
+WT-0380,Generator,North Sea,3.43,0
+WT-0381,Gearbox,Onshore North,3.998,0
+WT-0382,Generator,Onshore North,8.688,0
+WT-0383,Gearbox,Onshore North,3.899,1
+WT-0384,Gearbox,North Sea,4.686,0
+WT-0385,Gearbox,Onshore North,3.609,0
+WT-0386,Gearbox,Onshore North,7.569,0
+WT-0387,Main bearing,Baltic,2.357,1
+WT-0388,Gearbox,Onshore North,1.615,1
+WT-0389,Main bearing,Onshore North,3.933,0
+WT-0390,Gearbox,Baltic,3.78,1
+WT-0391,Main bearing,Onshore North,4.519,1
+WT-0392,Gearbox,Onshore North,4.641,0
+WT-0393,Main bearing,Onshore North,7.119,0
+WT-0394,Main bearing,North Sea,10.972,0
+WT-0395,Main bearing,Baltic,8.145,1
+WT-0396,Gearbox,Baltic,2.231,1
+WT-0397,Main bearing,North Sea,5.987,0
+WT-0398,Main bearing,Baltic,6.6,0
+WT-0399,Gearbox,Baltic,4.681,0
+WT-0400,Gearbox,Baltic,7.673,0
+WT-0401,Generator,Onshore North,6.875,0
+WT-0402,Generator,North Sea,5.891,0
+WT-0403,Main bearing,Onshore North,5.899,1
+WT-0404,Generator,North Sea,6.164,0
+WT-0405,Main bearing,Baltic,6.914,0
+WT-0406,Gearbox,North Sea,2.979,1
+WT-0407,Gearbox,Onshore North,8.52,1
+WT-0408,Main bearing,Onshore North,6.944,0
+WT-0409,Main bearing,North Sea,6.297,0
+WT-0410,Gearbox,Onshore North,2.124,1
+WT-0411,Gearbox,Baltic,6.0,1
+WT-0412,Gearbox,Onshore North,5.829,0
+WT-0413,Main bearing,North Sea,1.864,1
+WT-0414,Gearbox,Onshore North,3.587,1
+WT-0415,Generator,North Sea,5.57,0
+WT-0416,Generator,Baltic,4.222,0
+WT-0417,Main bearing,North Sea,7.006,0
+WT-0418,Main bearing,Onshore North,11.879,0
+WT-0419,Gearbox,Onshore North,2.809,1
+WT-0420,Generator,North Sea,11.346,0
