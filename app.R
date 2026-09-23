@@ -161,7 +161,11 @@ server <- function(input, output, session) {
     div(
       class = "metric-grid",
       metric_card("Turbines", format(m$turbines, big.mark = ","), "Unique turbine IDs"),
-      metric_card("Components", format(m$observations, big.mark = ","), "3 major components per turbine"),
+      metric_card(
+        "Components",
+        format(m$observations, big.mark = ","),
+        if (identical(input$component_type, "All")) "3 major components per turbine" else "Selected component type"
+      ),
       metric_card("Observed failures", m$failures, paste0(m$censored, " right-censored")),
       metric_card("Median observed age", paste0(round(m$median_age, 1), " y"), "Failure or censor age"),
       metric_card(paste0("Mean ", input$horizon, "m risk"), fmt_pct(m$mean_active_risk), "Conditional on surviving to current age"),

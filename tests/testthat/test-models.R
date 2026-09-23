@@ -13,7 +13,7 @@ testthat::test_that("every synthetic turbine has exactly one of each major compo
   testthat::expect_true(all(rows_per_turbine == 3))
 
   counts_by_type <- table(df$component_type)
-  testthat::expect_equal(unname(counts_by_type[component_types]), rep(80L, 3))
+  testthat::expect_equal(as.integer(counts_by_type[component_types]), rep(80L, 3))
 
   sites_per_turbine <- vapply(
     split(df$site, df$turbine_id),
