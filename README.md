@@ -11,6 +11,7 @@ The project is intentionally compact: it demonstrates how survival statistics ca
 - visualises survival and age-dependent hazard behaviour;
 - estimates the **conditional probability of failure over the next 3–24 months**, given that a component has survived to its current age;
 - ranks active components into low / medium / high modelled risk bands;
+- enforces a turbine-level asset model with exactly **one Main bearing, one Gearbox and one Generator per turbine**;
 - supports filtering by component type and site;
 - includes modular R functions, automated tests and GitHub Actions CI.
 
@@ -23,10 +24,14 @@ A reliability dataset rarely contains only completed lifetimes. Many components 
 This project therefore represents each component as:
 
 ```text
-observed_age_years + failed (1 = event, 0 = censored)
+turbine_id + component_id + component_type + observed_age_years + failed
 ```
 
-and models it with `survival::Surv()`.
+where `failed = 1` is an observed failure and `failed = 0` is right-censored.
+
+For this simplified prototype, the fleet model has an explicit structural invariant: every `turbine_id` must have exactly three component rows — one **Main bearing**, one **Gearbox** and one **Generator**. The validation layer rejects incomplete or duplicated turbine/component structures before modelling, so counts cannot drift into cases such as 48 turbines but only 46 gearboxes.
+
+The lifetime fields are then modelled with `survival::Surv()`.
 
 ## Statistical approach
 
@@ -117,9 +122,9 @@ renv::snapshot()
 
 ## Synthetic data
 
-The synthetic generator creates three component families with different Weibull lifetime characteristics and then applies an administrative observation window. Components whose generated lifetime exceeds that window are marked as right-censored.
+The synthetic generator first creates turbines, assigns each turbine to one site and then creates exactly three component records for that turbine: Main bearing, Gearbox and Generator. Each component family has different Weibull lifetime characteristics, while the turbine shares one administrative observation window across its three records. Components whose generated lifetime exceeds that window are marked as right-censored.
 
-This makes the example statistically meaningful without presenting simulated data as real turbine evidence.
+The bundled dataset contains 140 turbines and therefore 420 component rows: 140 Main bearings, 140 Gearboxes and 140 Generators. This makes the example structurally consistent and statistically meaningful without presenting simulated data as real turbine evidence.
 
 ## Engineering choices
 

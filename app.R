@@ -32,7 +32,7 @@ ui <- fluidPage(
       href = "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
       rel = "stylesheet"
     ),
-    tags$style(HTML("\n      body { background:#f5f7fa; font-family:'Inter',sans-serif; color:#172033; }\n      .container-fluid { padding:0; }\n      .hero { background:linear-gradient(120deg,#102f3f,#174d5f); color:white; padding:28px 36px 24px; }\n      .hero h1 { margin:0 0 6px; font-size:32px; font-weight:700; }\n      .hero p { margin:0; opacity:.86; max-width:850px; }\n      .content-wrap { padding:22px 30px 36px; }\n      .control-panel, .panel-card, .metric-card { background:white; border:1px solid #e5e9ef; border-radius:12px; box-shadow:0 4px 18px rgba(18,38,63,.05); }\n      .control-panel { padding:18px; margin-bottom:18px; }\n      .panel-card { padding:18px; margin-bottom:18px; min-height:390px; }\n      .metric-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:12px; margin-bottom:18px; }\n      .metric-card { padding:16px; min-height:104px; }\n      .metric-title { color:#68758a; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:.04em; }\n      .metric-value { font-size:26px; font-weight:700; margin-top:8px; color:#153746; }\n      .metric-note { color:#8792a4; font-size:12px; margin-top:4px; }\n      .section-title { font-weight:700; font-size:17px; margin-bottom:12px; }\n      .model-note { background:#edf6f7; border-left:4px solid #2f7f89; padding:10px 12px; border-radius:6px; font-size:13px; }\n      .footer-note { color:#7d8797; font-size:12px; margin-top:10px; }\n      @media (max-width:1000px) { .metric-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }\n      @media (max-width:650px) { .metric-grid { grid-template-columns:1fr; } .hero,.content-wrap{padding-left:16px;padding-right:16px;} }\n    "))
+    tags$style(HTML("\n      body { background:#f5f7fa; font-family:'Inter',sans-serif; color:#172033; }\n      .container-fluid { padding:0; }\n      .hero { background:linear-gradient(120deg,#102f3f,#174d5f); color:white; padding:28px 36px 24px; }\n      .hero h1 { margin:0 0 6px; font-size:32px; font-weight:700; }\n      .hero p { margin:0; opacity:.86; max-width:850px; }\n      .content-wrap { padding:22px 30px 36px; }\n      .control-panel, .panel-card, .metric-card { background:white; border:1px solid #e5e9ef; border-radius:12px; box-shadow:0 4px 18px rgba(18,38,63,.05); }\n      .control-panel { padding:18px; margin-bottom:18px; }\n      .panel-card { padding:18px; margin-bottom:18px; min-height:390px; }\n      .metric-grid { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:12px; margin-bottom:18px; }\n      .metric-card { padding:16px; min-height:104px; }\n      .metric-title { color:#68758a; font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:.04em; }\n      .metric-value { font-size:26px; font-weight:700; margin-top:8px; color:#153746; }\n      .metric-note { color:#8792a4; font-size:12px; margin-top:4px; }\n      .section-title { font-weight:700; font-size:17px; margin-bottom:12px; }\n      .model-note { background:#edf6f7; border-left:4px solid #2f7f89; padding:10px 12px; border-radius:6px; font-size:13px; }\n      .footer-note { color:#7d8797; font-size:12px; margin-top:10px; }\n      @media (max-width:1000px) { .metric-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }\n      @media (max-width:650px) { .metric-grid { grid-template-columns:1fr; } .hero,.content-wrap{padding-left:16px;padding-right:16px;} }\n    "))
   ),
 
   div(
@@ -160,7 +160,8 @@ server <- function(input, output, session) {
 
     div(
       class = "metric-grid",
-      metric_card("Observations", format(m$observations, big.mark = ","), "Selected segment"),
+      metric_card("Turbines", format(m$turbines, big.mark = ","), "Unique turbine IDs"),
+      metric_card("Components", format(m$observations, big.mark = ","), "3 major components per turbine"),
       metric_card("Observed failures", m$failures, paste0(m$censored, " right-censored")),
       metric_card("Median observed age", paste0(round(m$median_age, 1), " y"), "Failure or censor age"),
       metric_card(paste0("Mean ", input$horizon, "m risk"), fmt_pct(m$mean_active_risk), "Conditional on surviving to current age"),
@@ -241,15 +242,15 @@ server <- function(input, output, session) {
     if (nrow(risk) == 0) return(datatable(data.frame(Message = "No active components in this segment.")))
 
     view <- risk[, c(
-      "component_id", "component_type", "site",
+      "turbine_id", "component_id", "component_type", "site",
       "observed_age_years", "risk_next_horizon", "risk_band"
     )]
-    names(view) <- c("Component", "Type", "Site", "Current age (y)", "Failure risk", "Risk band")
+    names(view) <- c("Turbine", "Component", "Type", "Site", "Current age (y)", "Failure risk", "Risk band")
 
     datatable(
       view,
       rownames = FALSE,
-      options = list(pageLength = 8, order = list(list(4, "desc")), dom = "tip")
+      options = list(pageLength = 8, order = list(list(5, "desc")), dom = "tip")
     ) |>
       formatPercentage("Failure risk", digits = 1)
   })

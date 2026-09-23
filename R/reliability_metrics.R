@@ -38,6 +38,7 @@ summary_metrics <- function(df, horizon_years, weibull_fit) {
   } else numeric(0)
 
   list(
+    turbines = length(unique(df$turbine_id)),
     observations = nrow(df),
     failures = sum(df$failed),
     censored = sum(df$failed == 0),
